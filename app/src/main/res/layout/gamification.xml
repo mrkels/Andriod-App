@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5">
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_margin="12dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/close_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/closeBtn"
+        android:layout_margin="16dp"
+        android:text="Question 1: What is the primary function of a budget?"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Answer Options -->
+    <RadioGroup
+        android:id="@+id/answerOptionsRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionTextView"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/optionARadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A. To calculate net worth" />
+
+        <RadioButton
+            android:id="@+id/optionBRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B. To track expenses" />
+
+        <RadioButton
+            android:id="@+id/optionCRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C. To plan and control spending" />
+
+        <RadioButton
+            android:id="@+id/optionDRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D. To invest in stocks" />
+    </RadioGroup>
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/answerOptionsRadioGroup"
+        android:layout_marginTop="16dp"
+        android:text="Next"
+        android:textColor="@color/black"/>
+</RelativeLayout>

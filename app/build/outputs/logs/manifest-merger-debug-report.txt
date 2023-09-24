@@ -1,0 +1,681 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.github.skydoves:powerspinner:1.2.3] /Users/emiko/.gradle/caches/transforms-3/0ef4cc72d27954558cad5646a173132f/transformed/powerspinner-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/emiko/.gradle/caches/transforms-3/8563d8f5fabace9a2dbdabd5763e96d5/transformed/room-ktx-2.4.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/emiko/.gradle/caches/transforms-3/5321958e01d697df9a2bf683a4862324/transformed/preference-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f831fd2f186ffb6cc0941e3133e12059/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /Users/emiko/.gradle/caches/transforms-3/e29a71d225d8b740cf2ba585ec24a7e6/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.preference:preference:1.2.0] /Users/emiko/.gradle/caches/transforms-3/cb70b14209a9d4840fd0c2e4647dd0c0/transformed/preference-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/emiko/.gradle/caches/transforms-3/1ae878f89f3c14f496aae1c8a4419dca/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/emiko/.gradle/caches/transforms-3/04368e1ac44108ee67cf66cb58c6f602/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/emiko/.gradle/caches/transforms-3/6d84c55dcace3937f4d334b115113c1a/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/9e9103b0a8d45c206f37d50506c2ef28/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/32d9059d86c2d9aa06cbbdef93b6ee08/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/emiko/.gradle/caches/transforms-3/5e9740cacae22b6bb6f83c0a499d83ce/transformed/activity-ktx-1.2.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/0f8bbe752e9a60223bfedad732ddcd26/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.1] /Users/emiko/.gradle/caches/transforms-3/8ef3501d483e4d286825893433ad18c5/transformed/navigation-common-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/b8c7a84d5faa600054dd7739f0e211a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f754d8361d2c6b712b8493ff8dbdd7ed/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/emiko/.gradle/caches/transforms-3/7102328efe2a0f660314985f0c40f8ae/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/emiko/.gradle/caches/transforms-3/e2c0b18f3ceb590bb1fa18e57613fe23/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/emiko/.gradle/caches/transforms-3/bdeea6ca1162d01d872ea77601936fc9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/emiko/.gradle/caches/transforms-3/ef2970da794a5b0220dba6262253407c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/498e14b5c3679fd74fc5e244192073b6/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/emiko/.gradle/caches/transforms-3/071de975ac7835b0baf7765cdc44c5d1/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/emiko/.gradle/caches/transforms-3/23f6f74eab173e6594d3c5bd979c6159/transformed/datastore-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.5.0] /Users/emiko/.gradle/caches/transforms-3/cafa05e8668b89596e07b15f1d803a89/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/emiko/.gradle/caches/transforms-3/ffec32d23faff7f81e72d94c473236dd/transformed/constraintlayout-2.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/emiko/.gradle/caches/transforms-3/1c6cef4847a97bd20698f995d2171c70/transformed/library-1.4.0/AndroidManifest.xml:6:1-15:12
+MERGED from [com.tbuonomo:dotsindicator:4.3] /Users/emiko/.gradle/caches/transforms-3/fd6fbfca6993b921e89d7f71fea38764/transformed/dotsindicator-4.3-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/emiko/.gradle/caches/transforms-3/6a177bee03f251caac6217759f64c158/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/emiko/.gradle/caches/transforms-3/fe6a434d7defcb3c164b22e436a7ab90/transformed/hilt-android-2.42/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/emiko/.gradle/caches/transforms-3/2f87ad2a1239bbc091c3367a60033934/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/emiko/.gradle/caches/transforms-3/b335c52a3752af95df5b4c2efc9f6f64/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6083fe82bd0d156539c2948abdf028b0/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/emiko/.gradle/caches/transforms-3/180bc1fc15000952447d7b5af14ee5c4/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/emiko/.gradle/caches/transforms-3/db22f6c8a97f777f8689d1070c30aaeb/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.activity:activity:1.3.1] /Users/emiko/.gradle/caches/transforms-3/c592d4892460498dbd7ebe8bfc19fe65/transformed/activity-1.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emiko/.gradle/caches/transforms-3/06fc82209208257af4783a52b69bc5fa/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/emiko/.gradle/caches/transforms-3/5b41cec872b79a9cceea1ab8a2eadaa1/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emiko/.gradle/caches/transforms-3/de9afa77354500964b54da7f22fa42b1/transformed/savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/9e90c29646ea2050388c31c911c355f8/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/emiko/.gradle/caches/transforms-3/691d0f7b78275980f41006be15923920/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c41191a0eef3b6f02cc445d76cce703b/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emiko/.gradle/caches/transforms-3/b45ec8a674ab7dfe0d4aac4dfa920519/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/753ac1dadd764268fd88e0a8888231f1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3b590a30d644d1c645c66cd5ef958c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c1616b9f5452a6654b7d05574d904c9f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emiko/.gradle/caches/transforms-3/e44af9f396fe753b3fff6cff5140db3c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/emiko/.gradle/caches/transforms-3/0abb9d8b66cf2e12ab103a609b23054c/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emiko/.gradle/caches/transforms-3/31c141d68c3abe71ac6ae62a3b98f491/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/emiko/.gradle/caches/transforms-3/bed7ca2c49c7cadaa4cd9f19cc08f441/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/20aa060a4f8e3b68d8207c1e3fd6fa73/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/emiko/.gradle/caches/transforms-3/beb9313fddeed4ff238fe78b96f27373/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/emiko/.gradle/caches/transforms-3/7674184bd9f40586d05f85f847cee3b2/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/emiko/.gradle/caches/transforms-3/a249661585bef639a06eb2f222dc36dd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] /Users/emiko/.gradle/caches/transforms-3/0c8a44f1c0f14383d3bcf2a102a89746/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/emiko/.gradle/caches/transforms-3/14fed81a8927b4c5d8da911b50d2e2ec/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/71889bfeb0bd12f89b44cc3d2601733f/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/emiko/.gradle/caches/transforms-3/d6db97e109831b3b160ba01ded7d2f6a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/ff1007fa842e27d5720333b9dd6d9936/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/emiko/.gradle/caches/transforms-3/23045f362e56bd792611668e5700de83/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/emiko/.gradle/caches/transforms-3/205193e581e1b4d375df8c8d382366ef/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emiko/.gradle/caches/transforms-3/238a18d8988081b026c23bcc63b99e46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6e7b88506a096b253cc3a0d6c463446e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/emiko/.gradle/caches/transforms-3/944b38d21fb2c588e2babca17e278036/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/emiko/.gradle/caches/transforms-3/8e13952c7002e6d3a917fc87f4875c58/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emiko/.gradle/caches/transforms-3/064b45c52863dbb2c4c38f6ba75e13a2/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/emiko/.gradle/caches/transforms-3/c611f1393b6d3c8ccb173398d5fd59a5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/emiko/.gradle/caches/transforms-3/adf9a84f73dfdf1b7dc631258e82cd5a/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/emiko/.gradle/caches/transforms-3/64ce59a15c81c5e607cea2eeb8a724d9/transformed/viewbinding-7.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emiko/.gradle/caches/transforms-3/701705824cfe8724212c45c126f38612/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emiko/.gradle/caches/transforms-3/851f6255a817a1a4cabe7125e976d0f4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emiko/.gradle/caches/transforms-3/9347f765f93df9ec4e41c656ee21b3bd/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/189f8d85e2a7d3c9c3098c30b9bafb1c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/emiko/.gradle/caches/transforms-3/fa004e537d29be26e72bf71c56d37ee3/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emiko/.gradle/caches/transforms-3/886f3c729b7b4000501faccf8d770929/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c2f2aaff7cc26672b70ac11e49f5afc7/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/emiko/.gradle/caches/transforms-3/801af1545323a6bfedc662917643d10c/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:5:5-27:23
+MERGED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [com.google.android.material:material:1.5.0] /Users/emiko/.gradle/caches/transforms-3/cafa05e8668b89596e07b15f1d803a89/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.5.0] /Users/emiko/.gradle/caches/transforms-3/cafa05e8668b89596e07b15f1d803a89/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/emiko/.gradle/caches/transforms-3/ffec32d23faff7f81e72d94c473236dd/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/emiko/.gradle/caches/transforms-3/ffec32d23faff7f81e72d94c473236dd/transformed/constraintlayout-2.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.tbuonomo:dotsindicator:4.3] /Users/emiko/.gradle/caches/transforms-3/fd6fbfca6993b921e89d7f71fea38764/transformed/dotsindicator-4.3-debug/AndroidManifest.xml:9:5-47
+MERGED from [com.tbuonomo:dotsindicator:4.3] /Users/emiko/.gradle/caches/transforms-3/fd6fbfca6993b921e89d7f71fea38764/transformed/dotsindicator-4.3-debug/AndroidManifest.xml:9:5-47
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/emiko/.gradle/caches/transforms-3/2f87ad2a1239bbc091c3367a60033934/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/emiko/.gradle/caches/transforms-3/2f87ad2a1239bbc091c3367a60033934/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/emiko/.gradle/caches/transforms-3/b335c52a3752af95df5b4c2efc9f6f64/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/emiko/.gradle/caches/transforms-3/b335c52a3752af95df5b4c2efc9f6f64/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:15:5-44:19
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:15:5-44:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/emiko/.gradle/caches/transforms-3/c611f1393b6d3c8ccb173398d5fd59a5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/emiko/.gradle/caches/transforms-3/c611f1393b6d3c8ccb173398d5fd59a5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emiko/.gradle/caches/transforms-3/851f6255a817a1a4cabe7125e976d0f4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emiko/.gradle/caches/transforms-3/851f6255a817a1a4cabe7125e976d0f4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:11:9-41
+	android:fullBackupContent
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:9:9-54
+	tools:targetApi
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:14:9-29
+	android:icon
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:13:9-47
+	android:dataExtractionRules
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:8:9-65
+	android:name
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:6:9-32
+activity#com.example.influxapp.HomeActivity
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:15:9-17:40
+	android:exported
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:17:13-37
+	android:name
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:16:13-41
+activity#com.example.influxapp.AuthActivity
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:18:9-26:20
+	android:exported
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:19:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:24:27-74
+uses-sdk
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+MERGED from [com.github.skydoves:powerspinner:1.2.3] /Users/emiko/.gradle/caches/transforms-3/0ef4cc72d27954558cad5646a173132f/transformed/powerspinner-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.skydoves:powerspinner:1.2.3] /Users/emiko/.gradle/caches/transforms-3/0ef4cc72d27954558cad5646a173132f/transformed/powerspinner-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/emiko/.gradle/caches/transforms-3/8563d8f5fabace9a2dbdabd5763e96d5/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.2] /Users/emiko/.gradle/caches/transforms-3/8563d8f5fabace9a2dbdabd5763e96d5/transformed/room-ktx-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/emiko/.gradle/caches/transforms-3/5321958e01d697df9a2bf683a4862324/transformed/preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference-ktx:1.2.0] /Users/emiko/.gradle/caches/transforms-3/5321958e01d697df9a2bf683a4862324/transformed/preference-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f831fd2f186ffb6cc0941e3133e12059/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f831fd2f186ffb6cc0941e3133e12059/transformed/navigation-fragment-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /Users/emiko/.gradle/caches/transforms-3/e29a71d225d8b740cf2ba585ec24a7e6/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.1] /Users/emiko/.gradle/caches/transforms-3/e29a71d225d8b740cf2ba585ec24a7e6/transformed/navigation-fragment-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/emiko/.gradle/caches/transforms-3/cb70b14209a9d4840fd0c2e4647dd0c0/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.2.0] /Users/emiko/.gradle/caches/transforms-3/cb70b14209a9d4840fd0c2e4647dd0c0/transformed/preference-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/emiko/.gradle/caches/transforms-3/1ae878f89f3c14f496aae1c8a4419dca/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.1] /Users/emiko/.gradle/caches/transforms-3/1ae878f89f3c14f496aae1c8a4419dca/transformed/fragment-ktx-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/emiko/.gradle/caches/transforms-3/04368e1ac44108ee67cf66cb58c6f602/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.5] /Users/emiko/.gradle/caches/transforms-3/04368e1ac44108ee67cf66cb58c6f602/transformed/navigation-ui-ktx-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/emiko/.gradle/caches/transforms-3/6d84c55dcace3937f4d334b115113c1a/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/emiko/.gradle/caches/transforms-3/6d84c55dcace3937f4d334b115113c1a/transformed/navigation-ui-2.3.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/9e9103b0a8d45c206f37d50506c2ef28/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/9e9103b0a8d45c206f37d50506c2ef28/transformed/navigation-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/32d9059d86c2d9aa06cbbdef93b6ee08/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/32d9059d86c2d9aa06cbbdef93b6ee08/transformed/navigation-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/emiko/.gradle/caches/transforms-3/5e9740cacae22b6bb6f83c0a499d83ce/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.3] /Users/emiko/.gradle/caches/transforms-3/5e9740cacae22b6bb6f83c0a499d83ce/transformed/activity-ktx-1.2.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/0f8bbe752e9a60223bfedad732ddcd26/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/0f8bbe752e9a60223bfedad732ddcd26/transformed/navigation-common-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] /Users/emiko/.gradle/caches/transforms-3/8ef3501d483e4d286825893433ad18c5/transformed/navigation-common-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.1] /Users/emiko/.gradle/caches/transforms-3/8ef3501d483e4d286825893433ad18c5/transformed/navigation-common-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/b8c7a84d5faa600054dd7739f0e211a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/b8c7a84d5faa600054dd7739f0e211a8/transformed/lifecycle-runtime-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f754d8361d2c6b712b8493ff8dbdd7ed/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/f754d8361d2c6b712b8493ff8dbdd7ed/transformed/lifecycle-viewmodel-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/emiko/.gradle/caches/transforms-3/7102328efe2a0f660314985f0c40f8ae/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.7.1] /Users/emiko/.gradle/caches/transforms-3/7102328efe2a0f660314985f0c40f8ae/transformed/work-runtime-ktx-2.7.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/emiko/.gradle/caches/transforms-3/e2c0b18f3ceb590bb1fa18e57613fe23/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/emiko/.gradle/caches/transforms-3/e2c0b18f3ceb590bb1fa18e57613fe23/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/emiko/.gradle/caches/transforms-3/bdeea6ca1162d01d872ea77601936fc9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/emiko/.gradle/caches/transforms-3/bdeea6ca1162d01d872ea77601936fc9/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/emiko/.gradle/caches/transforms-3/ef2970da794a5b0220dba6262253407c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /Users/emiko/.gradle/caches/transforms-3/ef2970da794a5b0220dba6262253407c/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/498e14b5c3679fd74fc5e244192073b6/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/498e14b5c3679fd74fc5e244192073b6/transformed/lifecycle-livedata-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/emiko/.gradle/caches/transforms-3/071de975ac7835b0baf7765cdc44c5d1/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] /Users/emiko/.gradle/caches/transforms-3/071de975ac7835b0baf7765cdc44c5d1/transformed/datastore-preferences-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/emiko/.gradle/caches/transforms-3/23f6f74eab173e6594d3c5bd979c6159/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] /Users/emiko/.gradle/caches/transforms-3/23f6f74eab173e6594d3c5bd979c6159/transformed/datastore-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.5.0] /Users/emiko/.gradle/caches/transforms-3/cafa05e8668b89596e07b15f1d803a89/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.5.0] /Users/emiko/.gradle/caches/transforms-3/cafa05e8668b89596e07b15f1d803a89/transformed/material-1.5.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/emiko/.gradle/caches/transforms-3/ffec32d23faff7f81e72d94c473236dd/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] /Users/emiko/.gradle/caches/transforms-3/ffec32d23faff7f81e72d94c473236dd/transformed/constraintlayout-2.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/emiko/.gradle/caches/transforms-3/1c6cef4847a97bd20698f995d2171c70/transformed/library-1.4.0/AndroidManifest.xml:11:5-13:41
+MERGED from [me.zhanghai.android.materialratingbar:library:1.4.0] /Users/emiko/.gradle/caches/transforms-3/1c6cef4847a97bd20698f995d2171c70/transformed/library-1.4.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.tbuonomo:dotsindicator:4.3] /Users/emiko/.gradle/caches/transforms-3/fd6fbfca6993b921e89d7f71fea38764/transformed/dotsindicator-4.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.tbuonomo:dotsindicator:4.3] /Users/emiko/.gradle/caches/transforms-3/fd6fbfca6993b921e89d7f71fea38764/transformed/dotsindicator-4.3-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/emiko/.gradle/caches/transforms-3/6a177bee03f251caac6217759f64c158/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/emiko/.gradle/caches/transforms-3/6a177bee03f251caac6217759f64c158/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/emiko/.gradle/caches/transforms-3/fe6a434d7defcb3c164b22e436a7ab90/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.42] /Users/emiko/.gradle/caches/transforms-3/fe6a434d7defcb3c164b22e436a7ab90/transformed/hilt-android-2.42/AndroidManifest.xml:18:3-42
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/emiko/.gradle/caches/transforms-3/2f87ad2a1239bbc091c3367a60033934/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/emiko/.gradle/caches/transforms-3/2f87ad2a1239bbc091c3367a60033934/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/emiko/.gradle/caches/transforms-3/b335c52a3752af95df5b4c2efc9f6f64/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/emiko/.gradle/caches/transforms-3/b335c52a3752af95df5b4c2efc9f6f64/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6083fe82bd0d156539c2948abdf028b0/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6083fe82bd0d156539c2948abdf028b0/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/emiko/.gradle/caches/transforms-3/180bc1fc15000952447d7b5af14ee5c4/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /Users/emiko/.gradle/caches/transforms-3/180bc1fc15000952447d7b5af14ee5c4/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/emiko/.gradle/caches/transforms-3/db22f6c8a97f777f8689d1070c30aaeb/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] /Users/emiko/.gradle/caches/transforms-3/db22f6c8a97f777f8689d1070c30aaeb/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/emiko/.gradle/caches/transforms-3/c592d4892460498dbd7ebe8bfc19fe65/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.3.1] /Users/emiko/.gradle/caches/transforms-3/c592d4892460498dbd7ebe8bfc19fe65/transformed/activity-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emiko/.gradle/caches/transforms-3/06fc82209208257af4783a52b69bc5fa/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/emiko/.gradle/caches/transforms-3/06fc82209208257af4783a52b69bc5fa/transformed/lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/emiko/.gradle/caches/transforms-3/5b41cec872b79a9cceea1ab8a2eadaa1/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/emiko/.gradle/caches/transforms-3/5b41cec872b79a9cceea1ab8a2eadaa1/transformed/savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emiko/.gradle/caches/transforms-3/de9afa77354500964b54da7f22fa42b1/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/emiko/.gradle/caches/transforms-3/de9afa77354500964b54da7f22fa42b1/transformed/savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/9e90c29646ea2050388c31c911c355f8/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/9e90c29646ea2050388c31c911c355f8/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/emiko/.gradle/caches/transforms-3/691d0f7b78275980f41006be15923920/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/emiko/.gradle/caches/transforms-3/691d0f7b78275980f41006be15923920/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c41191a0eef3b6f02cc445d76cce703b/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c41191a0eef3b6f02cc445d76cce703b/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emiko/.gradle/caches/transforms-3/b45ec8a674ab7dfe0d4aac4dfa920519/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emiko/.gradle/caches/transforms-3/b45ec8a674ab7dfe0d4aac4dfa920519/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/753ac1dadd764268fd88e0a8888231f1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/emiko/.gradle/caches/transforms-3/753ac1dadd764268fd88e0a8888231f1/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3b590a30d644d1c645c66cd5ef958c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3b590a30d644d1c645c66cd5ef958c65/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c1616b9f5452a6654b7d05574d904c9f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c1616b9f5452a6654b7d05574d904c9f/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emiko/.gradle/caches/transforms-3/e44af9f396fe753b3fff6cff5140db3c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emiko/.gradle/caches/transforms-3/e44af9f396fe753b3fff6cff5140db3c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/emiko/.gradle/caches/transforms-3/0abb9d8b66cf2e12ab103a609b23054c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/emiko/.gradle/caches/transforms-3/0abb9d8b66cf2e12ab103a609b23054c/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emiko/.gradle/caches/transforms-3/31c141d68c3abe71ac6ae62a3b98f491/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emiko/.gradle/caches/transforms-3/31c141d68c3abe71ac6ae62a3b98f491/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/emiko/.gradle/caches/transforms-3/bed7ca2c49c7cadaa4cd9f19cc08f441/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /Users/emiko/.gradle/caches/transforms-3/bed7ca2c49c7cadaa4cd9f19cc08f441/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/20aa060a4f8e3b68d8207c1e3fd6fa73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/20aa060a4f8e3b68d8207c1e3fd6fa73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/emiko/.gradle/caches/transforms-3/beb9313fddeed4ff238fe78b96f27373/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/emiko/.gradle/caches/transforms-3/beb9313fddeed4ff238fe78b96f27373/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/emiko/.gradle/caches/transforms-3/7674184bd9f40586d05f85f847cee3b2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/emiko/.gradle/caches/transforms-3/7674184bd9f40586d05f85f847cee3b2/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/emiko/.gradle/caches/transforms-3/a249661585bef639a06eb2f222dc36dd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/emiko/.gradle/caches/transforms-3/a249661585bef639a06eb2f222dc36dd/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] /Users/emiko/.gradle/caches/transforms-3/0c8a44f1c0f14383d3bcf2a102a89746/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] /Users/emiko/.gradle/caches/transforms-3/0c8a44f1c0f14383d3bcf2a102a89746/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/emiko/.gradle/caches/transforms-3/14fed81a8927b4c5d8da911b50d2e2ec/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/emiko/.gradle/caches/transforms-3/14fed81a8927b4c5d8da911b50d2e2ec/transformed/lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/71889bfeb0bd12f89b44cc3d2601733f/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.1] /Users/emiko/.gradle/caches/transforms-3/71889bfeb0bd12f89b44cc3d2601733f/transformed/lifecycle-runtime-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/emiko/.gradle/caches/transforms-3/d6db97e109831b3b160ba01ded7d2f6a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.4.1] /Users/emiko/.gradle/caches/transforms-3/d6db97e109831b3b160ba01ded7d2f6a/transformed/lifecycle-livedata-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/ff1007fa842e27d5720333b9dd6d9936/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.4.1] /Users/emiko/.gradle/caches/transforms-3/ff1007fa842e27d5720333b9dd6d9936/transformed/lifecycle-livedata-core-ktx-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/emiko/.gradle/caches/transforms-3/23045f362e56bd792611668e5700de83/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.4.1] /Users/emiko/.gradle/caches/transforms-3/23045f362e56bd792611668e5700de83/transformed/lifecycle-livedata-core-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/emiko/.gradle/caches/transforms-3/205193e581e1b4d375df8c8d382366ef/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.4.1] /Users/emiko/.gradle/caches/transforms-3/205193e581e1b4d375df8c8d382366ef/transformed/lifecycle-viewmodel-2.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emiko/.gradle/caches/transforms-3/238a18d8988081b026c23bcc63b99e46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emiko/.gradle/caches/transforms-3/238a18d8988081b026c23bcc63b99e46/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6e7b88506a096b253cc3a0d6c463446e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emiko/.gradle/caches/transforms-3/6e7b88506a096b253cc3a0d6c463446e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/emiko/.gradle/caches/transforms-3/944b38d21fb2c588e2babca17e278036/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/emiko/.gradle/caches/transforms-3/944b38d21fb2c588e2babca17e278036/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/emiko/.gradle/caches/transforms-3/8e13952c7002e6d3a917fc87f4875c58/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/emiko/.gradle/caches/transforms-3/8e13952c7002e6d3a917fc87f4875c58/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emiko/.gradle/caches/transforms-3/064b45c52863dbb2c4c38f6ba75e13a2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/emiko/.gradle/caches/transforms-3/064b45c52863dbb2c4c38f6ba75e13a2/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/emiko/.gradle/caches/transforms-3/c611f1393b6d3c8ccb173398d5fd59a5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/emiko/.gradle/caches/transforms-3/c611f1393b6d3c8ccb173398d5fd59a5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/emiko/.gradle/caches/transforms-3/adf9a84f73dfdf1b7dc631258e82cd5a/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /Users/emiko/.gradle/caches/transforms-3/adf9a84f73dfdf1b7dc631258e82cd5a/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/emiko/.gradle/caches/transforms-3/64ce59a15c81c5e607cea2eeb8a724d9/transformed/viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.2.0] /Users/emiko/.gradle/caches/transforms-3/64ce59a15c81c5e607cea2eeb8a724d9/transformed/viewbinding-7.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emiko/.gradle/caches/transforms-3/701705824cfe8724212c45c126f38612/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emiko/.gradle/caches/transforms-3/701705824cfe8724212c45c126f38612/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emiko/.gradle/caches/transforms-3/851f6255a817a1a4cabe7125e976d0f4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emiko/.gradle/caches/transforms-3/851f6255a817a1a4cabe7125e976d0f4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emiko/.gradle/caches/transforms-3/9347f765f93df9ec4e41c656ee21b3bd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emiko/.gradle/caches/transforms-3/9347f765f93df9ec4e41c656ee21b3bd/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/189f8d85e2a7d3c9c3098c30b9bafb1c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emiko/.gradle/caches/transforms-3/189f8d85e2a7d3c9c3098c30b9bafb1c/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/emiko/.gradle/caches/transforms-3/fa004e537d29be26e72bf71c56d37ee3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/emiko/.gradle/caches/transforms-3/fa004e537d29be26e72bf71c56d37ee3/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emiko/.gradle/caches/transforms-3/886f3c729b7b4000501faccf8d770929/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emiko/.gradle/caches/transforms-3/886f3c729b7b4000501faccf8d770929/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c2f2aaff7cc26672b70ac11e49f5afc7/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/emiko/.gradle/caches/transforms-3/c2f2aaff7cc26672b70ac11e49f5afc7/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/emiko/.gradle/caches/transforms-3/801af1545323a6bfedc662917643d10c/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.42] /Users/emiko/.gradle/caches/transforms-3/801af1545323a6bfedc662917643d10c/transformed/dagger-lint-aar-2.42/AndroidManifest.xml:18:3-42
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:13:5-77
+MERGED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/emiko/.gradle/caches/transforms-3/c3e84987fa473c10902aff67dca63c26/transformed/startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:18:9-24:45
+	android:process
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:23:13-64
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:20:13-36
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:24:13-42
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:22:13-48
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:19:13-100
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:25:9-29:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:28:13-42
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:27:13-37
+	android:theme
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:29:13-62
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:26:13-93
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:32:9-39:19
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:34:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:33:13-94
+meta-data#com.google.android.play.core.assetpacks.versionCode
+ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:36:13-38:41
+	android:value
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:38:17-38
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:37:17-83
+service#com.google.android.play.core.assetpacks.ExtractionForegroundService
+ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:40:9-43:40
+	android:enabled
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:42:13-36
+	android:exported
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:41:13-95

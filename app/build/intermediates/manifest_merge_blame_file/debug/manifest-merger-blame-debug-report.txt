@@ -1,0 +1,350 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.influxapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+11-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+12-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+13    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+13-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+13-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+14-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+15
+16    <application
+16-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:5:5-27:23
+17        android:name="com.example.influxapp.app.App"
+17-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:6:9-32
+18        android:allowBackup="true"
+18-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.7.0] /Users/emiko/.gradle/caches/transforms-3/c8e1f9e5580b1a6dd37f5f892aa4d2a0/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:8:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:9:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:10:9-43
+25        android:label="@string/app_name"
+25-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:11:9-41
+26        android:supportsRtl="true"
+26-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:12:9-35
+27        android:theme="@style/Theme.InfluxApp" >
+27-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:13:9-47
+28        <activity
+28-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:15:9-17:40
+29            android:name="com.example.influxapp.HomeActivity"
+29-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:16:13-41
+30            android:exported="false" />
+30-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:17:13-37
+31        <activity
+31-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:18:9-26:20
+32            android:name="com.example.influxapp.AuthActivity"
+32-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:19:13-41
+33            android:exported="true" >
+33-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:20:13-36
+34            <intent-filter>
+34-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:21:13-25:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:22:17-69
+35-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:22:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:24:17-77
+37-->/Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/src/main/AndroidManifest.xml:24:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <uses-library
+41-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+42            android:name="androidx.window.extensions"
+42-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+43            android:required="false" />
+43-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+44        <uses-library
+44-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+45            android:name="androidx.window.sidecar"
+45-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+46            android:required="false" />
+46-->[androidx.window:window:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3ce0d466531bed3a33b32358af8641cb/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+47
+48        <provider
+48-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+50            android:authorities="com.example.influxapp.androidx-startup"
+50-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+51            android:exported="false" >
+51-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+52            <meta-data
+52-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+53                android:name="androidx.work.WorkManagerInitializer"
+53-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+54                android:value="androidx.startup" />
+54-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/emiko/.gradle/caches/transforms-3/3144d55c399296732bdfcefaf03fa376/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/emiko/.gradle/caches/transforms-3/b15c2be5d61fb8a1a427c9049158330c/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+61        </provider>
+62
+63        <service
+63-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+64            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+64-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+65            android:directBootAware="false"
+65-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+66            android:enabled="@bool/enable_system_alarm_service_default"
+66-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+67            android:exported="false" />
+67-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+68        <service
+68-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+69            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+69-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+70            android:directBootAware="false"
+70-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+71            android:enabled="@bool/enable_system_job_service_default"
+71-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+72            android:exported="true"
+72-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+73            android:permission="android.permission.BIND_JOB_SERVICE" />
+73-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+74        <service
+74-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+75            android:name="androidx.work.impl.foreground.SystemForegroundService"
+75-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+76            android:directBootAware="false"
+76-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+77            android:enabled="@bool/enable_system_foreground_service_default"
+77-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+78            android:exported="false" />
+78-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+79
+80        <receiver
+80-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+81            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+81-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+82            android:directBootAware="false"
+82-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+83            android:enabled="true"
+83-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+84            android:exported="false" />
+84-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+85        <receiver
+85-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+86            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+86-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+87            android:directBootAware="false"
+87-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+88            android:enabled="false"
+88-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+89            android:exported="false" >
+89-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+90            <intent-filter>
+90-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+91                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+91-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+91-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+92                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+92-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+92-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+93            </intent-filter>
+94        </receiver>
+95        <receiver
+95-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+96            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+96-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+97            android:directBootAware="false"
+97-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+98            android:enabled="false"
+98-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+99            android:exported="false" >
+99-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+100            <intent-filter>
+100-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+101                <action android:name="android.intent.action.BATTERY_OKAY" />
+101-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+101-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+102                <action android:name="android.intent.action.BATTERY_LOW" />
+102-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+102-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+103            </intent-filter>
+104        </receiver>
+105        <receiver
+105-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+106            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+106-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+107            android:directBootAware="false"
+107-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+108            android:enabled="false"
+108-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+109            android:exported="false" >
+109-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+110            <intent-filter>
+110-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+111                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+111-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+111-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+112                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+112-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+112-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+113            </intent-filter>
+114        </receiver>
+115        <receiver
+115-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+116            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+116-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+117            android:directBootAware="false"
+117-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+118            android:enabled="false"
+118-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+119            android:exported="false" >
+119-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+120            <intent-filter>
+120-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+121                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+121-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+121-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+122            </intent-filter>
+123        </receiver>
+124        <receiver
+124-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+125            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+125-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+127            android:enabled="false"
+127-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+128            android:exported="false" >
+128-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+129            <intent-filter>
+129-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+130                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+130-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+131                <action android:name="android.intent.action.TIME_SET" />
+131-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+131-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+132                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+132-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+132-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+133            </intent-filter>
+134        </receiver>
+135        <receiver
+135-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+136            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+136-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+137            android:directBootAware="false"
+137-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+138            android:enabled="@bool/enable_system_alarm_service_default"
+138-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+139            android:exported="false" >
+139-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+140            <intent-filter>
+140-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+141                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+141-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+141-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+142            </intent-filter>
+143        </receiver>
+144        <receiver
+144-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+145            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+145-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+146            android:directBootAware="false"
+146-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+147            android:enabled="true"
+147-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+148            android:exported="true"
+148-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+149            android:permission="android.permission.DUMP" >
+149-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+150            <intent-filter>
+150-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+151                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+151-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+151-->[androidx.work:work-runtime:2.7.1] /Users/emiko/.gradle/caches/transforms-3/df330a207ece83d975732613653c1276/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+152            </intent-filter>
+153        </receiver>
+154
+155        <service
+155-->[androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+156            android:name="androidx.room.MultiInstanceInvalidationService"
+156-->[androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+157            android:directBootAware="true"
+157-->[androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+158            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+158-->[androidx.room:room-runtime:2.4.2] /Users/emiko/.gradle/caches/transforms-3/03dc5baff47eac273cf213e05add0d4a/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+159        <activity
+159-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:18:9-24:45
+160            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+160-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:19:13-100
+161            android:enabled="false"
+161-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:20:13-36
+162            android:exported="false"
+162-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:21:13-37
+163            android:launchMode="singleInstance"
+163-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:22:13-48
+164            android:process=":playcore_missing_splits_activity"
+164-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:23:13-64
+165            android:stateNotNeeded="true" />
+165-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:24:13-42
+166        <activity
+166-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:25:9-29:65
+167            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+167-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:26:13-93
+168            android:exported="false"
+168-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:27:13-37
+169            android:stateNotNeeded="true"
+169-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:28:13-42
+170            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+170-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:29:13-62
+171        <service
+171-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:32:9-39:19
+172            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+172-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:33:13-94
+173            android:enabled="false"
+173-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:34:13-36
+174            android:exported="true" >
+174-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:35:13-36
+175            <meta-data
+175-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:36:13-38:41
+176                android:name="com.google.android.play.core.assetpacks.versionCode"
+176-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:37:17-83
+177                android:value="11003" />
+177-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:38:17-38
+178        </service>
+179        <service
+179-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:40:9-43:40
+180            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+180-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:41:13-95
+181            android:enabled="false"
+181-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:42:13-36
+182            android:exported="false" />
+182-->[com.google.android.play:core:1.10.3] /Users/emiko/.gradle/caches/transforms-3/4a7f1a4b95ec60cf5fd1bf41266abaa9/transformed/core-1.10.3/AndroidManifest.xml:43:13-37
+183    </application>
+184
+185</manifest>

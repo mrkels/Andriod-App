@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_navigation.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.influxapp.feature.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_expenseFragment"
+            app:destination="@id/expenseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addExpenseFragment"
+            app:destination="@id/addExpenseFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_addBudgetFragment"
+            app:destination="@id/addBudgetFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_budgetFragment"
+            app:destination="@id/budgetFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_gamificationFragment"
+            app:destination="@id/gamificationFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_insightAnalyticsFragment"
+            app:destination="@id/insightAnalyticsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_financialGoalFragment"
+            app:destination="@id/financialGoalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/expenseFragment"
+        android:name="com.example.influxapp.feature.expense.ExpenseFragment"
+        android:label="ExpenseFragment" />
+    <fragment
+        android:id="@+id/addExpenseFragment"
+        android:name="com.example.influxapp.feature.expense.AddExpenseFragment"
+        android:label="AddExpenseFragment" />
+    <fragment
+        android:id="@+id/addBudgetFragment"
+        android:name="com.example.influxapp.feature.budget.AddBudgetFragment"
+        android:label="AddBudgetFragment" />
+    <fragment
+        android:id="@+id/budgetFragment"
+        android:name="com.example.influxapp.feature.budget.BudgetFragment"
+        android:label="fragment_budget"
+        tools:layout="@layout/fragment_budget" />
+    <fragment
+        android:id="@+id/gamificationFragment"
+        android:name="com.example.influxapp.feature.GamificationFragment"
+        android:label="GamificationFragment" />
+    <fragment
+        android:id="@+id/insightAnalyticsFragment"
+        android:name="com.example.influxapp.feature.InsightAnalyticsFragment"
+        android:label="InsightAnalyticsFragment" />
+    <fragment
+        android:id="@+id/financialGoalFragment"
+        android:name="com.example.influxapp.feature.financialgoal.FinancialGoalFragment"
+        android:label="FinancialGoalFragment" >
+        <action
+            android:id="@+id/action_financialGoalFragment_to_addFinancialGoalFragment"
+            app:destination="@id/addFinancialGoalFragment" />
+        <action
+            android:id="@+id/action_financialGoalFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFinancialGoalFragment"
+        android:name="com.example.influxapp.feature.financialgoal.AddFinancialGoalFragment"
+        android:label="AddFinancialGoalFragment" >
+        <action
+            android:id="@+id/action_addFinancialGoalFragment_to_financialGoalFragment"
+            app:destination="@id/financialGoalFragment" />
+    </fragment>
+</navigation>

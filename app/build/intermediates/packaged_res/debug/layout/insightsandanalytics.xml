@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageButton
+        android:id="@+id/closeBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="12dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/close_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/black" />
+
+    <!-- Expense Analysis -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/expenseAnalysisCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color2"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/closeBtn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expense Analysis"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Income Analysis -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/incomeAnalysisCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color3"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expenseAnalysisCard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Income Analysis"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/budgetTrackingCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color3"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/incomeAnalysisCard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Tracking"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Cash Flow Analysis -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cashFlowAnalysisCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color3"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/budgetTrackingCard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cash Flow Analysis"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Net Worth Tracking -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/netWorthTrackingCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color3"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cashFlowAnalysisCard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Net Worth Tracking"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Debt Analysis -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/debtAnalysisCard"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Color3"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/netWorthTrackingCard">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Debt Analysis"
+            android:textColor="@color/Text_Color"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:padding="16dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/remainingImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/achievement"
+        app:layout_constraintTop_toBottomOf="@+id/debtAnalysisCard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_sign_in.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_sign_in.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_background5.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/background5.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_account.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_account.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_expenses_layout.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/expenses_layout.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_faq.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_faq.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/navigation_home_navigation.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/navigation/home_navigation.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_description_focused.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_description_focused.xml"
+    },
+    {
+        "merged": "com.example.influxapp-merged_res-60:/layout_fragment_financial_goal.xml.flat",
+        "source": "com.example.influxapp-main-62:/layout/fragment_financial_goal.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_financial.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_financial.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_red_bell_icon_icons_com_59499.png.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/red_bell_icon_icons_com_59499.png"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_corner_radius.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/corner_radius.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_influx.png.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/influx.png"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_add_expenses.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/add_expenses.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_fingo2.jpeg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/fingo2.jpeg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_label_focused.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_label_focused.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_expense_tracking.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/expense_tracking.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_gamification.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/gamification.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_label_selector.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/label_selector.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_money_selector.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/money_selector.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_close_bg.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/close_bg.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_settings.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_budget.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_budget.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_register.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_expense.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_expense.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_money_focused.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_money_focused.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_home.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_background3.jpg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/background3.jpg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/navigation_auth_navigation.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/navigation/auth_navigation.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_add_budget.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/add_budget.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_insightsandanalytics.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/insightsandanalytics.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_description_selector.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/description_selector.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_background.jpg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/background.jpg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_graph.PNG.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/graph.PNG"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_notification.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_notification.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_achievement.jpeg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/achievement.jpeg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_dashboard.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_dashboard.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_add.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/xml_backup_rules.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_background2.jpg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/background2.jpg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_description.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_description.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_influx2.png.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/influx2.png"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_auth.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_auth.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_female.png.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/female.png"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_main.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_login.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_money.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_money.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_financial_goal.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_financial_goal.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_label.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_label.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_budget.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/budget.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_activity_achievment.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/activity_achievment.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_background1.jpg.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/background1.jpg"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_register.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/drawable_ic_close.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/layout_fragment_home.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-merged_res-60:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/emiko/.gradle/daemon/7.5/com.example.influxapp-main-62:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    }
+]

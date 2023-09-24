@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".activities.BudgetActivity">
+
+    <TextView
+        android:id="@+id/textViewCreateBudget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Budget:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextBudgetCategories"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Budget Categories"
+        android:importantForAccessibility="yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewCreateBudget"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextBudgetAmount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Budget Amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextBudgetCategories"
+        android:layout_marginTop="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextBudgetPeriod"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Budget Period"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editTextBudgetAmount"
+        android:layout_marginTop="8dp"/>
+
+
+
+    <Button
+        android:id="@+id/buttonCreateBudget"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create Budget"
+        android:textColor="#000000"
+    app:layout_constraintTop_toBottomOf="@id/editTextBudgetPeriod"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Create Budget"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@id/editTextBudgetPeriod"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

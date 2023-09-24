@@ -1,0 +1,5 @@
+com.example.influxapp.test.app-androidTest-0 /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/build/generated/res/resValues/androidTest/debug
+com.example.influxapp.test.app-androidTest-1 /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/build/generated/res/rs/androidTest/debug
+com.example.influxapp.test.app-mergeDebugAndroidTestResources-2 /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.influxapp.test.app-mergeDebugAndroidTestResources-3 /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.influxapp.test.app-merged_res-4 /Users/emiko/Downloads/Personal_Finance_Management_Mobile_App-main/app/build/intermediates/merged_res/debugAndroidTest

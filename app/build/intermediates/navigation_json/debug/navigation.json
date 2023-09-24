@@ -1,0 +1,12 @@
+[
+  {
+    "name": "home_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  },
+  {
+    "name": "auth_navigation",
+    "navigationXmlIds": [],
+    "deepLinks": []
+  }
+]

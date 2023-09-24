@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Background_color">#E0EFDE</color>
+    <color name="Color1">#B3F2DD</color>
+    <color name="Color2">#F05D5E</color>
+    <color name="Color3">#AC8887</color>
+    <color name="Text_Color">#2D3A3A</color>
+    <color name="black">#FF000000</color>
+    <color name="green">#43A047</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red">#E53935</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="textMain">#292929</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="buttonHeight">48dp</dimen>
+    <dimen name="buttonWidht">300dp</dimen>
+    <dimen name="cardHeight">200dp</dimen>
+    <dimen name="cardWidth">300dp</dimen>
+    <dimen name="editTextHeight">48dp</dimen>
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="screen_horizontalMargin">16dp</dimen>
+    <dimen name="screen_verticalMargin">16dp</dimen>
+    <dimen name="smallButtonHeight">48dp</dimen>
+    <dimen name="smallButtonWidth">100dp</dimen>
+    <string name="Faq_description">We built this application for your busy life solution. You are capable of
+manage your monthly income in a good manner. Save more and live happily.</string>
+    <string name="achievement">You are in a 150,000 saving challenge.</string>
+    <string name="achievements_text">Achievements</string>
+    <string name="add_expense">Add Expense:</string>
+    <string name="add_expense1">Add Expense:</string>
+    <string name="app_name">Influx</string>
+    <string name="backBtn">Back</string>
+    <string name="expense_amount">Expense Amount</string>
+    <string name="expense_amount1">Expense Amount</string>
+    <string name="expense_descriptio">Expense Description</string>
+    <string name="expense_description">Expense Description</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_text">Login</string>
+    <string name="loginbtn">Login</string>
+    <string name="name_of_user">Hello Alexa!</string>
+    <string name="notification">You have spent more than last week.</string>
+    <string name="notification_">You have spent more than last week.</string>
+    <string name="notification_text">Notification</string>
+    <string name="password2_text">Re-enter password</string>
+    <string name="password_text">Enter password</string>
+    <string name="register_btn">Register</string>
+    <string name="register_text">If you are not registered, register here.</string>
+    <string name="setting">Settings</string>
+    <string name="settings_item1">Account</string>
+    <string name="settings_item2">Delete Account</string>
+    <string name="settings_item3">FAQ</string>
+    <string name="username_text">Enter username</string>
+    <string name="welcome_text">Welcome to influx</string>
+    <style name="Theme.InfluxApp" parent="Theme.MaterialComponents.NoActionBar">
+        
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/Color1</item>
+        <item name="colorOnPrimary">@color/Background_color</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/Text_Color</item>
+        
+        <item name="android:statusBarColor">@color/black</item>
+        
+    </style>
+</resources>
